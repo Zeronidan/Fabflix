@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<TITLE>Fabflix</TITLE>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Fabflix</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="browse_genre.jsp">Browse by Genre</a></li>
+					<li><a href="browse_title.jsp">Browse by Title</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="ShoppingCart"><span
+							class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<FORM ACTION="movieList.jsp" METHOD="GET">
+		<h1>Search by any attributes!</h1>
+		Title: <INPUT TYPE="TEXT" NAME="title"><BR> Year: <INPUT
+			TYPE="TEXT" NAME="year"><BR> Director: <INPUT
+			TYPE="TEXT" NAME="director"><BR> First Name: <INPUT
+			TYPE="TEXT" NAME="fname"><BR> Last Name: <INPUT
+			TYPE="TEXT" NAME="lname"><BR> <INPUT TYPE="SUBMIT"
+			VALUE="Submit">
+	</FORM>
+
+</body>
+</html>

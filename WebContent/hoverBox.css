@@ -1,0 +1,13 @@
+.titleLink:hover {
+	color: red;
+}
+
+.box {
+	display: none;
+	position: absolute;
+	background-color: white;
+	z-index: 1;
+	border: 1px solid black;
+	padding: 20px;
+	margin-top: -10px;
+}

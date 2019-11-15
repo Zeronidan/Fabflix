@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Optimization Report</title>
+</head>
+<body>
+	<p>1. For actors63.xml, we used batch insert, which reduced its
+		time from over 6 minutes to around 4 minutes.</p>
+	<p>2. For all three xml files, we used HashMap and HashSets to
+		reduce duplicate searching time. It reduces time because querying the
+		database for a duplicate is slower than checking a HashMap or HashSet.
+	</p>
+	<p>2a. The time for the main243.xml was reduced from over 10
+		minutes to around 2.5 minutes using a HashMap to check for duplicates.
+	</p>
+	<p>3. For casts124, we created different HashMaps to reduce the
+		need to query the database multiple times for movies, stars, and
+		stars_in_movies.</p>
+</body>
+</html>
